@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB45ADFE22EF5F9A006C6A1D /* AnalogStick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */; };
+		FB45AE0322EF5F9A006C6A1D /* AnalogStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45AE0222EF5F9A006C6A1D /* AnalogStickTests.swift */; };
+		FB45AE0522EF5F9A006C6A1D /* AnalogStick.h in Headers */ = {isa = PBXBuildFile; fileRef = FB45ADF722EF5F9A006C6A1D /* AnalogStick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB45ADFF22EF5F9A006C6A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB45ADEB22EF5F9A006C6A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB45ADF322EF5F9A006C6A1D;
+			remoteInfo = AnalogStick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalogStick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB45ADF722EF5F9A006C6A1D /* AnalogStick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalogStick.h; sourceTree = "<group>"; };
+		FB45ADF822EF5F9A006C6A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB45AE0222EF5F9A006C6A1D /* AnalogStickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogStickTests.swift; sourceTree = "<group>"; };
+		FB45AE0422EF5F9A006C6A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB45ADF122EF5F9A006C6A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB45ADFA22EF5F9A006C6A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB45ADFE22EF5F9A006C6A1D /* AnalogStick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB45ADEA22EF5F9A006C6A1D = {
+			isa = PBXGroup;
+			children = (
+				FB45ADF622EF5F9A006C6A1D /* AnalogStick */,
+				FB45AE0122EF5F9A006C6A1D /* AnalogStickTests */,
+				FB45ADF522EF5F9A006C6A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB45ADF522EF5F9A006C6A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */,
+				FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB45ADF622EF5F9A006C6A1D /* AnalogStick */ = {
+			isa = PBXGroup;
+			children = (
+				FB45ADF722EF5F9A006C6A1D /* AnalogStick.h */,
+				FB45ADF822EF5F9A006C6A1D /* Info.plist */,
+			);
+			path = AnalogStick;
+			sourceTree = "<group>";
+		};
+		FB45AE0122EF5F9A006C6A1D /* AnalogStickTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB45AE0222EF5F9A006C6A1D /* AnalogStickTests.swift */,
+				FB45AE0422EF5F9A006C6A1D /* Info.plist */,
+			);
+			path = AnalogStickTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB45ADEF22EF5F9A006C6A1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB45AE0522EF5F9A006C6A1D /* AnalogStick.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB45ADF322EF5F9A006C6A1D /* AnalogStick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB45AE0822EF5F9A006C6A1D /* Build configuration list for PBXNativeTarget "AnalogStick" */;
+			buildPhases = (
+				FB45ADEF22EF5F9A006C6A1D /* Headers */,
+				FB45ADF022EF5F9A006C6A1D /* Sources */,
+				FB45ADF122EF5F9A006C6A1D /* Frameworks */,
+				FB45ADF222EF5F9A006C6A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalogStick;
+			productName = AnalogStick;
+			productReference = FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB45ADFC22EF5F9A006C6A1D /* AnalogStickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB45AE0B22EF5F9A006C6A1D /* Build configuration list for PBXNativeTarget "AnalogStickTests" */;
+			buildPhases = (
+				FB45ADF922EF5F9A006C6A1D /* Sources */,
+				FB45ADFA22EF5F9A006C6A1D /* Frameworks */,
+				FB45ADFB22EF5F9A006C6A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB45AE0022EF5F9A006C6A1D /* PBXTargetDependency */,
+			);
+			name = AnalogStickTests;
+			productName = AnalogStickTests;
+			productReference = FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB45ADEB22EF5F9A006C6A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fellipe Calleia";
+				TargetAttributes = {
+					FB45ADF322EF5F9A006C6A1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FB45ADFC22EF5F9A006C6A1D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB45ADEE22EF5F9A006C6A1D /* Build configuration list for PBXProject "AnalogStick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB45ADEA22EF5F9A006C6A1D;
+			productRefGroup = FB45ADF522EF5F9A006C6A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB45ADF322EF5F9A006C6A1D /* AnalogStick */,
+				FB45ADFC22EF5F9A006C6A1D /* AnalogStickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB45ADF222EF5F9A006C6A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB45ADFB22EF5F9A006C6A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB45ADF022EF5F9A006C6A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB45ADF922EF5F9A006C6A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB45AE0322EF5F9A006C6A1D /* AnalogStickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB45AE0022EF5F9A006C6A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB45ADF322EF5F9A006C6A1D /* AnalogStick */;
+			targetProxy = FB45ADFF22EF5F9A006C6A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB45AE0622EF5F9A006C6A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45AE0722EF5F9A006C6A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45AE0922EF5F9A006C6A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnalogStick/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStick;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB45AE0A22EF5F9A006C6A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AnalogStick/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStick;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB45AE0C22EF5F9A006C6A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				INFOPLIST_FILE = AnalogStickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB45AE0D22EF5F9A006C6A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				INFOPLIST_FILE = AnalogStickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB45ADEE22EF5F9A006C6A1D /* Build configuration list for PBXProject "AnalogStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB45AE0622EF5F9A006C6A1D /* Debug */,
+				FB45AE0722EF5F9A006C6A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB45AE0822EF5F9A006C6A1D /* Build configuration list for PBXNativeTarget "AnalogStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB45AE0922EF5F9A006C6A1D /* Debug */,
+				FB45AE0A22EF5F9A006C6A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB45AE0B22EF5F9A006C6A1D /* Build configuration list for PBXNativeTarget "AnalogStickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB45AE0C22EF5F9A006C6A1D /* Debug */,
+				FB45AE0D22EF5F9A006C6A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB45ADEB22EF5F9A006C6A1D /* Project object */;
+}
