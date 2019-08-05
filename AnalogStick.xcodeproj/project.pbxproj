@@ -10,6 +10,11 @@
 		FB45ADFE22EF5F9A006C6A1D /* AnalogStick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */; };
 		FB45AE0322EF5F9A006C6A1D /* AnalogStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45AE0222EF5F9A006C6A1D /* AnalogStickTests.swift */; };
 		FB45AE0522EF5F9A006C6A1D /* AnalogStick.h in Headers */ = {isa = PBXBuildFile; fileRef = FB45ADF722EF5F9A006C6A1D /* AnalogStick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF6BE6F22F87A240000A277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BE6E22F87A240000A277 /* AppDelegate.swift */; };
+		FBF6BE7122F87A240000A277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6BE7022F87A240000A277 /* ViewController.swift */; };
+		FBF6BE7422F87A240000A277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6BE7222F87A240000A277 /* Main.storyboard */; };
+		FBF6BE7622F87A250000A277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6BE7522F87A250000A277 /* Assets.xcassets */; };
+		FBF6BE7922F87A250000A277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6BE7722F87A250000A277 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,13 @@
 		FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB45AE0222EF5F9A006C6A1D /* AnalogStickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogStickTests.swift; sourceTree = "<group>"; };
 		FB45AE0422EF5F9A006C6A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6BE6C22F87A240000A277 /* AnalogStickExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogStickExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6BE6E22F87A240000A277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF6BE7022F87A240000A277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF6BE7322F87A240000A277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF6BE7522F87A250000A277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF6BE7822F87A250000A277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF6BE7A22F87A250000A277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBF6BE6922F87A240000A277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				FB45ADF622EF5F9A006C6A1D /* AnalogStick */,
 				FB45AE0122EF5F9A006C6A1D /* AnalogStickTests */,
+				FBF6BE6D22F87A240000A277 /* AnalogStickExample */,
 				FB45ADF522EF5F9A006C6A1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				FB45ADF422EF5F9A006C6A1D /* AnalogStick.framework */,
 				FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */,
+				FBF6BE6C22F87A240000A277 /* AnalogStickExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +105,19 @@
 				FB45AE0422EF5F9A006C6A1D /* Info.plist */,
 			);
 			path = AnalogStickTests;
+			sourceTree = "<group>";
+		};
+		FBF6BE6D22F87A240000A277 /* AnalogStickExample */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6BE6E22F87A240000A277 /* AppDelegate.swift */,
+				FBF6BE7022F87A240000A277 /* ViewController.swift */,
+				FBF6BE7222F87A240000A277 /* Main.storyboard */,
+				FBF6BE7522F87A250000A277 /* Assets.xcassets */,
+				FBF6BE7722F87A250000A277 /* LaunchScreen.storyboard */,
+				FBF6BE7A22F87A250000A277 /* Info.plist */,
+			);
+			path = AnalogStickExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +170,23 @@
 			productReference = FB45ADFD22EF5F9A006C6A1D /* AnalogStickTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FBF6BE6B22F87A240000A277 /* AnalogStickExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6BE7D22F87A250000A277 /* Build configuration list for PBXNativeTarget "AnalogStickExample" */;
+			buildPhases = (
+				FBF6BE6822F87A240000A277 /* Sources */,
+				FBF6BE6922F87A240000A277 /* Frameworks */,
+				FBF6BE6A22F87A240000A277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalogStickExample;
+			productName = AnalogStickExample;
+			productReference = FBF6BE6C22F87A240000A277 /* AnalogStickExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +203,9 @@
 					FB45ADFC22EF5F9A006C6A1D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					FBF6BE6B22F87A240000A277 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = FB45ADEE22EF5F9A006C6A1D /* Build configuration list for PBXProject "AnalogStick" */;
@@ -160,6 +214,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FB45ADEA22EF5F9A006C6A1D;
 			productRefGroup = FB45ADF522EF5F9A006C6A1D /* Products */;
@@ -168,6 +223,7 @@
 			targets = (
 				FB45ADF322EF5F9A006C6A1D /* AnalogStick */,
 				FB45ADFC22EF5F9A006C6A1D /* AnalogStickTests */,
+				FBF6BE6B22F87A240000A277 /* AnalogStickExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +240,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6BE6A22F87A240000A277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6BE7922F87A250000A277 /* LaunchScreen.storyboard in Resources */,
+				FBF6BE7622F87A250000A277 /* Assets.xcassets in Resources */,
+				FBF6BE7422F87A240000A277 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +271,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBF6BE6822F87A240000A277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6BE7122F87A240000A277 /* ViewController.swift in Sources */,
+				FBF6BE6F22F87A240000A277 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +289,25 @@
 			targetProxy = FB45ADFF22EF5F9A006C6A1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF6BE7222F87A240000A277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6BE7322F87A240000A277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF6BE7722F87A250000A277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6BE7822F87A250000A277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB45AE0622EF5F9A006C6A1D /* Debug */ = {
@@ -424,6 +518,42 @@
 			};
 			name = Release;
 		};
+		FBF6BE7B22F87A250000A277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				INFOPLIST_FILE = AnalogStickExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStickExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF6BE7C22F87A250000A277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8TUEXC7WY;
+				INFOPLIST_FILE = AnalogStickExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = calleia.com.br.AnalogStickExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,6 +580,15 @@
 			buildConfigurations = (
 				FB45AE0C22EF5F9A006C6A1D /* Debug */,
 				FB45AE0D22EF5F9A006C6A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6BE7D22F87A250000A277 /* Build configuration list for PBXNativeTarget "AnalogStickExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6BE7B22F87A250000A277 /* Debug */,
+				FBF6BE7C22F87A250000A277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
