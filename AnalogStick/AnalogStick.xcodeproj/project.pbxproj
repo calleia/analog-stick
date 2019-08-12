@@ -15,6 +15,7 @@
 		FB1B531F2301EFD50034EE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1B531D2301EFD50034EE96 /* LaunchScreen.storyboard */; };
 		FB1B532A2301EFD50034EE96 /* AnalogStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B53292301EFD50034EE96 /* AnalogStickTests.swift */; };
 		FB1B53352301EFD60034EE96 /* AnalogStickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B53342301EFD60034EE96 /* AnalogStickUITests.swift */; };
+		FB1B53432301F1050034EE96 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1B53422301F1050034EE96 /* CircularView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB1B53302301EFD60034EE96 /* AnalogStickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogStickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1B53342301EFD60034EE96 /* AnalogStickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogStickUITests.swift; sourceTree = "<group>"; };
 		FB1B53362301EFD60034EE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1B53422301F1050034EE96 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FB1B531D2301EFD50034EE96 /* LaunchScreen.storyboard */,
 				FB1B53202301EFD50034EE96 /* Info.plist */,
 				FB1B53182301EFD30034EE96 /* AnalogStick.xcdatamodeld */,
+				FB1B53422301F1050034EE96 /* CircularView.swift */,
 			);
 			path = AnalogStick;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB1B531A2301EFD30034EE96 /* AnalogStick.xcdatamodeld in Sources */,
+				FB1B53432301F1050034EE96 /* CircularView.swift in Sources */,
 				FB1B53142301EFD30034EE96 /* ViewController.swift in Sources */,
 				FB1B53122301EFD30034EE96 /* AppDelegate.swift in Sources */,
 			);
