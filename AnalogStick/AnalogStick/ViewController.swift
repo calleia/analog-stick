@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         let circularView = CircularView(frame: frame)
         circularView.center = view.center
         view.addSubview(circularView)
+        
+        view.backgroundColor = UIColor.lightGray
     }
 
 

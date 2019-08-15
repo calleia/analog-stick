@@ -9,7 +9,19 @@
 import UIKit
 
 class CircularView: UIView {
-
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        setBackgroundColor()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        setBackgroundColor()
+    }
+    
     override func draw(_ rect: CGRect) {
         
         guard let context = UIGraphicsGetCurrentContext() else {
@@ -21,6 +33,15 @@ class CircularView: UIView {
         context.addEllipse(in: rect)
         context.setFillColor(UIColor.white.cgColor)
         context.fillPath()
+        
+        let maskLayer = CAShapeLayer()
+        let path = UIBezierPath(ovalIn: rect)
+        maskLayer.path = path.cgPath
+        layer.mask = maskLayer
+    }
+    
+    private func setBackgroundColor() {
+        backgroundColor = UIColor.clear
     }
 
 }
